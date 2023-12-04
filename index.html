@@ -21,10 +21,9 @@
     
           .Header1 {
         font-family: "Bodini Poster", serif;
-        font-size: 400%;
+        font-size: 500%;
         color: white;
         font-weight: 900;
-        text-align: left;
         
       }
     
@@ -42,7 +41,6 @@
         font-size: 20px;
         color: white;
         font-weight: 500;
-        text-align: left;
         padding: 20px;
     }
     
@@ -53,6 +51,11 @@
         font-weight: 500;
     }
 
+      
+    a {
+      color: pink;    
+    }
+    
     ul.sidenav {
       list-style-type: none;
       margin: 0;
@@ -83,7 +86,7 @@
     }
 
     div.content {
-      margin-left: 25%;
+      margin-left: 100px;
       padding: 1px 16px;
       height: 1000px;
     }
@@ -120,28 +123,41 @@
     position: relative;
     }
     
-    img
-    {
-    position: relative;
-    left: -8%;
-    width: auto; 
-    height: 76%; 
-    }
-    
-  	.text {
- 	 	position: fixed;
-  	top: 20%;
+  	.text1 {
+     text-align: center;
+      top: 20%;
   	left: 50%;
+  	background-color: black;
+  	color: white;
+    padding: 15px;
+		}
+    
+    .text2 {
+     text-align: left;
+      width: 30%;
+  	background-color: black;
+  	color: white;
+		}
+    
+     .text3 {
+     text-align: center;
   	background-color: black;
   	color: white;
 		}
 
-      position: left;
-      width: auto;
-      height: 300px;
-      bottom: auto;
-      left: 516px;
-      border: 5px white solid;
+    img {
+    position: absolute;
+    top: 260px;
+    left: 500px;
+    max-width: 300px; 
+    max-height: auto; 
+    margin: -40px;
+    }
+    
+    .container{
+      position: relative;
+        height: 10px;
+    }
   </style>
 </head>
 
@@ -149,9 +165,9 @@
   <nav>
     
   <ul class="sidenav">
-    <li><a href="https://tommyjasson.github.io/MainProject2" class="Body2"> Home</a></li>
+    <li><a href="Home" class="Body2"> Home</a></li>
     <li><a class="active Body2" href="#About Me"> About Me</a></li>
-    <li><a href="https://tommyjasson.github.io/Interests" class="Body2"> Interests</a></li>
+    <li><a href="Interests" class="Body2"> Interests</a></li>
     <li><a href="#Hobbies" class="Body2"> Hobbies</a></li>
     <li><a href="#Projects" class="Body2"> Projects</a></li>
     <li><a href="#Contact" class="Body2"> Contact</a></li>
@@ -159,17 +175,32 @@
   </nav>
 
   <div class="content">
+    <div class="container">
+      
+    </div>
     <div id="home">
-    <div class="img">
-      <img src="Tommy (1).png" alt="Homepage">
-        <div class="text"> 
-        <h1 class="Header1"> Understanding Tommy </h1>
-          <p class="Header2"> This Website was created so that anyone get to know me and who i am alittle more.</p>
-          <h2 class="Body1"> By Tommy Jasson</h2>
+    
+        <div class="text3"> 
+          
+        <h1 class="text1 Header1"> About Me </h1>
+        
+          <div class="img">
+      <img src="Image1.JPG" alt="About Me">
+          
+          <p class="text2 Body1">  I'm Tommy, a second year University of Waterloo student and I'm studying 
+            <i> <a href="https://uwaterloo.ca/future-students/programs/global-business-and-digital-arts"> Global Business and Digital Arts.</a> </i>
+           I've been passionate about design ever since i saw the old porshe advertisements from the 90s when i was 10. Design is something i love because it allows to devllop and share my own thoughts and views without feeling judged. You could call it my paradise.
+          </p>
+          
+          
+          <p class="text3 Body1"> My whole life, i struggled to make friends. I was that weird kid everyone avoided. It was hard for me to feel good about myself and my creativity. My brother and my mom though both always made me feel like who i was, is perfect. They both were and are my biggest inspirations in design under Eero Saarinen and Louis Cartier. They gave me the confidence as a kid to share with the world who i was. To keep designing and following my path.  
+          </p>
+          
+          
         </div>
     </div>  
     </div>
-	</div>  
+  </div>
 </body>
 
 </html>
