@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <title>Understanding Tommy</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <head>
+    <title>Understanding Tommy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=IM Bodini Poster|Didot|Playfair Display" rel="stylesheet">
-  <style> 
-      
+    <style>
       @font-face {
         font-family: "Roboto", sans-serif;
       }
@@ -44,163 +43,163 @@
         padding: 20px;
       }
 
-    a {
-      color: pink;
-    }
+      a {
+        color: pink;
+      }
 
-    /*Code copied from: https://www.w3schools.com/w3css/w3css_slideshow.aspAuthor: w3schools.comName: Horizontal Navigation BarDescription: Responsive Navigation BarDate retrieved: dec. 1st, 2023  */
-/*copied code starts here:*/
-    
-    ul.sidenav {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      width: 15%;
-      background-color: black;
-      position: fixed;
-      height: 100%;
-      overflow: inherit;
-      color: white;
-    }
+      /*Code copied from: https://www.w3schools.com/w3css/w3css_slideshow.aspAuthor: w3schools.comName: Horizontal Navigation BarDescription: Responsive Navigation BarDate retrieved: dec. 1st, 2023  */
+      /*copied code starts here:*/
 
-    ul.sidenav li a {
-      display: block;
-      padding: 8px 16px;
-      text-decoration: none;
-      color: grey;
-    }
-
-    ul.sidenav li a.active {
-      background-color: black;
-      color: white;
-    }
-
-    ul.sidenav li a:hover:not(.active) {
-      background-color: black;
-      color: white;
-    }
-
-    div.content {
-      margin-left: 25%;
-      padding: 1px 16px;
-      height: 1000px;
-    }
-
-    @media screen and (max-width: 900px) {
       ul.sidenav {
-        width: 100%;
-        height: auto;
-        position: relative;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        background-color: black;
+        position: fixed;
+        height: 100%;
+        overflow: inherit;
         color: white;
       }
 
       ul.sidenav li a {
-        float: left;
-        padding: 15px;
+        display: block;
+        padding: 8px 16px;
+        text-decoration: none;
         color: grey;
       }
 
+      ul.sidenav li a.active {
+        background-color: black;
+        color: white;
+      }
+
+      ul.sidenav li a:hover:not(.active) {
+        background-color: black;
+        color: white;
+      }
+
       div.content {
-        margin-left: 0;
+        margin-left: 25%;
+        padding: 1px 16px;
+        height: 1000px;
       }
-    }
 
-    @media screen and (max-width: 400px) {
-      ul.sidenav li a {
-        text-align: center;
-        float: none;
+      @media screen and (max-width: 900px) {
+        ul.sidenav {
+          width: 100%;
+          height: auto;
+          position: relative;
+          color: white;
+        }
+
+        ul.sidenav li a {
+          float: left;
+          padding: 15px;
+          color: grey;
+        }
+
+        div.content {
+          margin-left: 0;
+        }
       }
-    }
 
-        /* Copied Code Ends Here*/
+      @media screen and (max-width: 400px) {
+        ul.sidenav li a {
+          text-align: center;
+          float: none;
+        }
+      }
 
-    body {
-      background-color: black;
-    }
+      /* Copied Code Ends Here*/
 
-    @media screen and (max-width: 800px) {
-      .leftcolumn,
+      body {
+        background-color: black;
+      }
+
+      @media screen and (max-width: 800px) {
+
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      .leftcolumn {
+        float: left;
+        width: 50%;
+      }
+
       .rightcolumn {
-        width: 100%;
-        padding: 0;
+        float: right;
+        width: 40%;
       }
-    }
 
-    .leftcolumn {
-      float: left;
-      width: 50%;
-    }
+      .text1,
+      .text2,
+      .text3 {
+        color: white;
+        padding: 15px;
+        margin-bottom: 20px;
+      }
 
-    .rightcolumn {
-  float: right;
-  width: 40%;
-    }
-    
-    .text1,
-    .text2,
-    .text3 {
-      color: white;
-      padding: 15px;
-      margin-bottom: 20px;
-    }
+      .text2 {
+        width: 90%;
+      }
 
-    .text2 {
-      width: 90%;
-    }
 
-    
-    img {
-      position: relative;
-      top: 15%;
-      right: 0%;
-      width: 45%;
-      height: auto;
-      border: 5px white groove
-    }
+      img {
+        position: relative;
+        top: 15%;
+        right: 0%;
+        width: 45%;
+        height: auto;
+        border: 5px white groove
+      }
 
-    .container {
-      position: center;
-      height: 10px;
-    }
-  </style>
-</head>
+      .container {
+        position: center;
+        height: 10px;
+      }
+    </style>
+  </head>
 
-<body>
-  
-  <!-- Code copied from: https://www.w3schools.com/html/html_tables.asp w3schools.comName: HHTML Tables BarDescription: How to create a table BarDate retrieved: dec. 1st, 2023
+  <body>
+
+    <!-- Code copied from: https://www.w3schools.com/html/html_tables.asp w3schools.comName: HHTML Tables BarDescription: How to create a table BarDate retrieved: dec. 1st, 2023
 copied code starts here:-->
-  
-  <nav>
 
-    <ul class="sidenav">
-      <li><a href="https://tommyjasson.github.io/Home/" class="Body1"> Home</a></li>
-      <li><a class="active Body1" href="https://tommyjasson.github.io/About-Me/"> About Me</a></li>
-      <li><a href="https://tommyjasson.github.io/Interests/" class="Body1"> Interests</a></li>
-      <li><a href="https://tommyjasson.github.io/Projects/" class="Body1"> Projects</a></li>
-      <li><a href="https://tommyjasson.github.io/Contact/" class="Body1"> Contact</a></li>
-    </ul>
-  </nav>
-          <!-- Copied code ends -->
+    <nav>
 
-  <div class="content">
-    <div class="text3">
-      <h1 class="text1 Header1"> About Me </h1>
-    </div>
-    <div id="home">
-      <div class="leftcolumn">
-        <p class="text2 Body1">I'm Tommy, a second year student studying at The University of Waterloo and I'm studying
-          <i><a href="https://uwaterloo.ca/future-students/programs/global-business-and-digital-arts"> Global Business and Digital Arts.</a></i>
-          I've been passionate about design ever since I saw the old Porsche advertisements from the 90s when I was 10. Design is something I love because it allows me to develop and share my own thoughts and creativity to the world. You could call it my paradise.
-        </p>
-        <p class="text2 Body1">My brother and my mom both made me feel like I can be myself when i was little. They both were and still are my biggest inspirations in design under Eero Saarinen and Louis Cartier. They gave me the confidence as a kid to share with the world who I was, to keep designing and following my path.
-        </p>
+      <ul class="sidenav">
+        <li><a href="https://tommyjasson.github.io/Home/" class="Body1"> Home</a></li>
+        <li><a class="active Body1" href="https://tommyjasson.github.io/About-Me/"> About Me</a></li>
+        <li><a href="https://tommyjasson.github.io/Interests/" class="Body1"> Interests</a></li>
+        <li><a href="https://tommyjasson.github.io/Projects/" class="Body1"> Projects</a></li>
+        <li><a href="https://tommyjasson.github.io/Contact/" class="Body1"> Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Copied code ends -->
+
+    <div class="content">
+      <div class="text3">
+        <h1 class="text1 Header1"> About Me </h1>
       </div>
-              <img src="Untitled design.png" alt="About Me">
-      <div class="rightcollum">
+      <div id="home">
+        <div class="leftcolumn">
+          <p class="text2 Body1">I'm Tommy, a second year student studying at The University of Waterloo and I'm studying
+            <i><a href="https://uwaterloo.ca/future-students/programs/global-business-and-digital-arts"> Global Business and Digital Arts.</a></i>
+            I've been passionate about design ever since I saw the old Porsche advertisements from the 90s when I was 10. Design is something I love because it allows me to develop and share my own thoughts and creativity to the world. You could call it my paradise.
+          </p>
+          <p class="text2 Body1">My brother and my mom both made me feel like I could be myself when I was little. They both were and still are my biggest inspirations in design under Eero Saarinen and Louis Cartier. They gave me the confidence as a kid to share with the world who I was, to keep designing and following my path.</p>
+        </div>
+        <img src="Untitled design.png" alt="About Me">
+        <div class="rightcollum">
+        </div>
       </div>
     </div>
-  </div>
 
-</body>
+  </body>
 
 </html>
